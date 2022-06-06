@@ -1,0 +1,7 @@
+Artemiev 50
+Ivanov 78
+Zabolotsky 48
+Kuchkarov 76
+Metelev 90
+Maratcanova 80
+Tumanov 60
