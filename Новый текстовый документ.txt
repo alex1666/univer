@@ -1,0 +1,71 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+#include <iostream>
+#include <cstdlib>
+#include <mutex>
+
+
+using namespace std;
+
+string getPalSubstr(string inputString) {
+  int n = inputString.size();
+  string palindromic = "";
+
+  int maxLength = 1, start = 0;
+  mutex maxLength_mutex;
+  mutex start_mutex;
+  mutex palindromic_mutex;
+  #pragma omp parallel for
+  for (int i = 0; i < inputString.length(); i++) {
+
+    for (int j = i; j < inputString.length(); j++) {
+      int flag = 1;
+
+      for (int k = 0; k < (j - i + 1) / 2; k++)
+        if (inputString[i + k] != inputString[j - k])
+          flag = 0;
+        maxLength_mutex.lock();
+        start_mutex.lock();
+        palindromic_mutex.lock();
+      // строка [i, j - i + 1]  палиндром
+      if (flag && (j - i + 1) > maxLength) {
+        
+        
+        sleep(1);
+        start = i;
+        maxLength = j - i + 1;
+        palindromic = "";
+        for (int n = i; n <= j; n++) {
+        palindromic += inputString[n];
+        }
+        
+      }
+    maxLength_mutex.unlock();
+    start_mutex.unlock();
+    palindromic_mutex.unlock();
+    }
+  }
+
+  return palindromic;
+}
+
+int main() {
+    #ifdef _OPENMP
+    cout<<"openmp support  ";
+    #endif
+  string inputString = "ababbba";
+
+  cout << getPalSubstr(inputString);
+  return 0;
+}

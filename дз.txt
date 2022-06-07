@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+string getPalSubstr(string inputString) {
+  int n = inputString.size();
+  string palindromic = "";
+
+  int maxLength = 1, start = 0;
+  
+  #pragma omp parallel for
+  for (int i = 0; i < inputString.length(); i++) {
+
+    for (int j = i; j < inputString.length(); j++) {
+      int flag = 1;
+
+      for (int k = 0; k < (j - i + 1) / 2; k++)
+        if (inputString[i + k] != inputString[j - k])
+          flag = 0;
+
+      // строка [i, j - i + 1]  палиндром
+      if (flag && (j - i + 1) > maxLength) {
+        start = i;
+        maxLength = j - i + 1;
+        palindromic = "";
+        for (int n = i; n <= j; n++) {
+          palindromic += inputString[n];
+        }
+      }
+    }
+  }
+
+  return palindromic;
+}
+
+int main() {
+
+  string inputString = "abbabbba";
+
+  cout << getPalSubstr(inputString);
+  return 0;
+}
