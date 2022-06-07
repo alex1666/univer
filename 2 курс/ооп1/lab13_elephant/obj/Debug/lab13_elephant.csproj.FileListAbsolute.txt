@@ -1,0 +1,10 @@
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\bin\Debug\lab13_elephant.exe.config
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\bin\Debug\lab13_elephant.exe
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\bin\Debug\lab13_elephant.pdb
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.csprojAssemblyReference.cache
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.Form1.resources
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.Properties.Resources.resources
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.csproj.GenerateResource.cache
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.csproj.CoreCompileInputs.cache
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.exe
+C:\Users\nikitasA1NT\source\repos\LabsOOP\lab13_elephant\obj\Debug\lab13_elephant.pdb

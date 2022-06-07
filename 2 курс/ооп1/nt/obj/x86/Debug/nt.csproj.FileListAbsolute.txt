@@ -1,0 +1,9 @@
+C:\work\Ковалёв\Стандарт\nt\bin\Debug\nt.exe
+C:\work\Ковалёв\Стандарт\nt\bin\Debug\nt.pdb
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\nt.Form1.resources
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\nt.Properties.Resources.resources
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\nt.exe
+C:\work\Ковалёв\Стандарт\nt\obj\x86\Debug\nt.pdb

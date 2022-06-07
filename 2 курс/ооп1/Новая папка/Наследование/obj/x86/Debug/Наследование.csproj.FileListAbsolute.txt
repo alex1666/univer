@@ -1,0 +1,9 @@
+C:\work\Ковалёв\Стандарт\Наследование\bin\Debug\Наследование.exe
+C:\work\Ковалёв\Стандарт\Наследование\bin\Debug\Наследование.pdb
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\Наследование.Form1.resources
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\Наследование.Properties.Resources.resources
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\Наследование.exe
+C:\work\Ковалёв\Стандарт\Наследование\obj\x86\Debug\Наследование.pdb

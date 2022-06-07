@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Неправильное наследование", "Неправильное наследование.csproj", "{F81AFA18-EB0E-4C16-A270-6CC27E75090E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Debug|x86.ActiveCfg = Debug|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Debug|x86.Build.0 = Debug|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Release|x86.ActiveCfg = Release|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BABF1A4-710F-4B77-99D5-3B2F27E3A43E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,83 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, Menus;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Image1: TImage;
+    OpenDialog1: TOpenDialog;
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    N4: TMenuItem;
+    N5: TMenuItem;
+    N6: TMenuItem;
+    PopupMenu2: TPopupMenu;
+    N7: TMenuItem;
+    N8: TMenuItem;
+    procedure Panel1Click(Sender: TObject);
+    procedure FormMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure FormCreate(Sender: TObject);
+    procedure N2Click(Sender: TObject);
+    procedure N5Click(Sender: TObject);
+    procedure N6Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.N2Click (Sender: TObject); 
+begin  
+   Close; 
+end; 
+procedure TForm1.N5Click (Sender: TObject); 
+begin  
+   Image1.Picture.LoadFromFile ('C:\Windows\ќблака.bmp');
+end; 
+procedure TForm1.N6Click (Sender: TObject); 
+begin  
+   Image1.Picture.LoadFromFile ('C:\Windows\Ћес.bmp');
+procedure TForm1.N2Click(Sender: TObject);
+begin
+Close;
+end;
+
+procedure TForm1.N5Click(Sender: TObject);
+begin
+Image1.Picture.LoadFromFile
+(СC:\Windows\река.bmpТ); 
+end;
+
+procedure TForm1.N6Click(Sender: TObject);
+begin
+Image1.Picture.LoadFromFile
+(СC:\Windows\лес.jpgТ);
+end;
+
+end;
+procedure TForm1.FormMouseDown
+    (Sender: TObject; Button: TMouseButton; Shift: TShiftState; X. Y: Integer); 
+var p:TPoint;
+begin 
+  p.X :=X; 
+  p.Y :=Y; 
+  p := ClientToScreen (p); 
+  PopupMenu1.Popup (p.X, p.Y);
+end; 
+
+nd.

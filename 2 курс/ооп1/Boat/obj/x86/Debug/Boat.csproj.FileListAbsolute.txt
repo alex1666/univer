@@ -1,0 +1,16 @@
+C:\work\Ковалёв\Стандарт\Boat\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\work\Ковалёв\Стандарт\Boat\obj\x86\Debug\Boat.Properties.Resources.resources
+C:\work\Ковалёв\Стандарт\Boat\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\work\Ковалёв\Стандарт\Boat\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\work\Ковалёв\Стандарт\Boat\bin\Debug\Boat.exe
+C:\work\Ковалёв\Стандарт\Boat\bin\Debug\Boat.pdb
+C:\work\Ковалёв\Стандарт\Boat\obj\x86\Debug\Boat.exe
+C:\work\Ковалёв\Стандарт\Boat\obj\x86\Debug\Boat.pdb
+C:\Users\User\Desktop\Boat\bin\Debug\Boat.exe
+C:\Users\User\Desktop\Boat\bin\Debug\Boat.pdb
+C:\Users\User\Desktop\Boat\obj\x86\Debug\Boat.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Boat\obj\x86\Debug\Boat.Properties.Resources.resources
+C:\Users\User\Desktop\Boat\obj\x86\Debug\Boat.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Boat\obj\x86\Debug\Boat.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Boat\obj\x86\Debug\Boat.exe
+C:\Users\User\Desktop\Boat\obj\x86\Debug\Boat.pdb

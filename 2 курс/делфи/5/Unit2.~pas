@@ -1,0 +1,21 @@
+unit Unit2;
+
+interface
+Function Ss(x:extended;n:integer):extended;
+Function Yy(x:extended):extended;
+implementation
+
+Function Ss;
+begin
+ Result:=exp(2*n*ln(x));
+end;
+
+
+
+Function Yy;
+begin
+Result:=(exp(x)-exp(-x))/2;
+end;
+
+end.
+ 

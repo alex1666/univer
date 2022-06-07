@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\экз\праздник\obj\x86\Debug\DinnerParty.csprojAssemblyReference.cache
+C:\Users\User\Desktop\экз\праздник\obj\x86\Debug\DinnerParty.csproj.GenerateResource.cache
+C:\Users\User\Desktop\экз\праздник\obj\x86\Debug\DinnerParty.exe
+C:\Users\User\Desktop\экз\праздник\obj\x86\Debug\DinnerParty.pdb

@@ -1,0 +1,27 @@
+C:\work\laba\Game\Game\bin\Debug\Game.exe
+C:\work\laba\Game\Game\bin\Debug\Game.pdb
+C:\work\laba\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\work\laba\Game\Game\obj\x86\Debug\Game.Form1.resources
+C:\work\laba\Game\Game\obj\x86\Debug\Game.Properties.Resources.resources
+C:\work\laba\Game\Game\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\work\laba\Game\Game\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\work\laba\Game\Game\obj\x86\Debug\Game.exe
+C:\work\laba\Game\Game\obj\x86\Debug\Game.pdb
+C:\work\Ковалёв\Game\obj\x86\Debug\Game.exe
+C:\work\Ковалёв\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\work\Ковалёв\Game\obj\x86\Debug\Game.Form1.resources
+C:\work\Ковалёв\Game\obj\x86\Debug\Game.Properties.Resources.resources
+C:\work\Ковалёв\Game\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\work\Ковалёв\Game\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\work\Ковалёв\Game\bin\Debug\Game.exe
+C:\work\Ковалёв\Game\bin\Debug\Game.pdb
+C:\work\Ковалёв\Game\obj\x86\Debug\Game.pdb
+C:\Users\User\Desktop\Новая папка\Game\bin\Debug\Game.exe
+C:\Users\User\Desktop\Новая папка\Game\bin\Debug\Game.pdb
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.Form1.resources
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.Properties.Resources.resources
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.exe
+C:\Users\User\Desktop\Новая папка\Game\obj\x86\Debug\Game.pdb

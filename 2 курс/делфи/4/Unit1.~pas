@@ -1,0 +1,103 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls,Math, Grids;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Label1: TLabel;
+    Button1: TButton;
+    StringGrid1: TStringGrid;
+    StringGrid3: TStringGrid;
+    Button2: TButton;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+ const
+ Nmax=10;
+ Type
+ Mas2=array[1..Nmax,1..Nmax] of extended;
+ Mas1=array[1..Nmax] of extended;
+var
+  Form1: TForm1;
+  A:Mas2;
+  B,Y:Mas1;
+  N,M,i,j:integer;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+N:=3;
+M:=N;
+ Edit1.Text:=FloatToStr(N);
+ Edit2.Text:=FloatToStr(M);
+StringGrid1.ColCount:=N+1;
+StringGrid1.RowCount:=M+1;
+
+StringGrid3.RowCount:=M+1;
+StringGrid1.Cells[0,0]:='Массив А:';
+
+StringGrid3.Cells[0,0]:='Массив Y:';
+ for i:=1 to N do begin
+ StringGrid1.Cells[0,i]:=' i='+IntToStr(i);
+ StringGrid1.Cells[i,0]:=' G='+IntToStr(i);
+ end;
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+N:=StrToInt(Edit1.Text);
+M:=StrToInt(Edit2.Text);
+StringGrid1.ColCount:=N+1;
+StringGrid1.RowCount:=M+1;
+
+StringGrid3.RowCount:=M+1;
+for i:=1 to M do
+ StringGrid1.Cells[0,i]:=' i='+IntToStr(i);
+ for i:=1 to N do
+ StringGrid1.Cells[i,0]:=' G='+IntToStr(i);
+
+
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+var s,x:extended;
+begin
+for i:=1 to N do
+for j:=1 to M do
+A[i,j]:=StrToFloat(StringGrid1.Cells[i,j]);
+
+ for i:=1 to M do
+ begin
+ for j:=1 to N-1 do begin
+ if (A[j,i]> A[j+1,i]) then x:=1
+ else
+ begin
+ x:=0;
+ break;
+ end;
+  end;
+   StringGrid3.Cells[0,i]:=FloatToStr(x);
+  Edit3.Text:=FloatToStr(A[1,2]);
+    end;
+end;
+
+end.

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinnerParty", "DinnerParty\DinnerParty.csproj", "{A1539CF7-64CE-4A42-9003-CEE839970504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmer", "Farmer\Farmer.csproj", "{8037F25D-43B2-49A1-87D6-5BACCFB2A5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nt", "nt\nt.csproj", "{CB1AD5FD-8854-4FCC-A3EA-34CD7129CA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boat", "Boat\Boat.csproj", "{689EBFC7-0C21-4A5F-93E0-3CB6D19DBB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Неправильное наследование", "Неправильное наследование\Неправильное наследование.csproj", "{F81AFA18-EB0E-4C16-A270-6CC27E75090E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Наследование", "Наследование\Наследование.csproj", "{30AFBD42-F440-4ADB-BEBC-4A5417BC76B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1539CF7-64CE-4A42-9003-CEE839970504}.Debug|x86.ActiveCfg = Debug|x86
+		{A1539CF7-64CE-4A42-9003-CEE839970504}.Debug|x86.Build.0 = Debug|x86
+		{A1539CF7-64CE-4A42-9003-CEE839970504}.Release|x86.ActiveCfg = Release|x86
+		{A1539CF7-64CE-4A42-9003-CEE839970504}.Release|x86.Build.0 = Release|x86
+		{8037F25D-43B2-49A1-87D6-5BACCFB2A5D2}.Debug|x86.ActiveCfg = Debug|x86
+		{8037F25D-43B2-49A1-87D6-5BACCFB2A5D2}.Debug|x86.Build.0 = Debug|x86
+		{8037F25D-43B2-49A1-87D6-5BACCFB2A5D2}.Release|x86.ActiveCfg = Release|x86
+		{8037F25D-43B2-49A1-87D6-5BACCFB2A5D2}.Release|x86.Build.0 = Release|x86
+		{CB1AD5FD-8854-4FCC-A3EA-34CD7129CA4E}.Debug|x86.ActiveCfg = Debug|x86
+		{CB1AD5FD-8854-4FCC-A3EA-34CD7129CA4E}.Debug|x86.Build.0 = Debug|x86
+		{CB1AD5FD-8854-4FCC-A3EA-34CD7129CA4E}.Release|x86.ActiveCfg = Release|x86
+		{CB1AD5FD-8854-4FCC-A3EA-34CD7129CA4E}.Release|x86.Build.0 = Release|x86
+		{689EBFC7-0C21-4A5F-93E0-3CB6D19DBB12}.Debug|x86.ActiveCfg = Debug|x86
+		{689EBFC7-0C21-4A5F-93E0-3CB6D19DBB12}.Debug|x86.Build.0 = Debug|x86
+		{689EBFC7-0C21-4A5F-93E0-3CB6D19DBB12}.Release|x86.ActiveCfg = Release|x86
+		{689EBFC7-0C21-4A5F-93E0-3CB6D19DBB12}.Release|x86.Build.0 = Release|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Debug|x86.ActiveCfg = Debug|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Debug|x86.Build.0 = Debug|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Release|x86.ActiveCfg = Release|x86
+		{F81AFA18-EB0E-4C16-A270-6CC27E75090E}.Release|x86.Build.0 = Release|x86
+		{30AFBD42-F440-4ADB-BEBC-4A5417BC76B8}.Debug|x86.ActiveCfg = Debug|x86
+		{30AFBD42-F440-4ADB-BEBC-4A5417BC76B8}.Debug|x86.Build.0 = Debug|x86
+		{30AFBD42-F440-4ADB-BEBC-4A5417BC76B8}.Release|x86.ActiveCfg = Release|x86
+		{30AFBD42-F440-4ADB-BEBC-4A5417BC76B8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

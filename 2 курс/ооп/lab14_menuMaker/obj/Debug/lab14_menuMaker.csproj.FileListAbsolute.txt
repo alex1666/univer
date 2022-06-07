@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\lab14_menuMaker\bin\Debug\lab14_menuMaker.exe.config
+C:\Users\User\Desktop\lab14_menuMaker\bin\Debug\lab14_menuMaker.exe
+C:\Users\User\Desktop\lab14_menuMaker\bin\Debug\lab14_menuMaker.pdb
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.csprojAssemblyReference.cache
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.Form1.resources
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.Properties.Resources.resources
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.csproj.GenerateResource.cache
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.exe
+C:\Users\User\Desktop\lab14_menuMaker\obj\Debug\lab14_menuMaker.pdb

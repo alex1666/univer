@@ -1,0 +1,13 @@
+program Project33;
+
+uses
+  Forms,
+  lab33 in 'C:\Documents and Settings\student\Мои документы\delphie\lab33.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
